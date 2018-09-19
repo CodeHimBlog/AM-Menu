@@ -1,9 +1,9 @@
-/*   Project           : AM Menu (Full App Style Menu)
+/*   Project           : AM Menu (Full App Style Mega Menu)
  *   Plugin Name       : am-menu.js
  *   Plugin Version    : 1.0
- *   Last change       : 18/09/2018
+ *   Last change       : 19/09/2018
  *   Framework css	     : Core Framework 3.0
- *   Framework js      : jQuery v3.2.1 min.js 
+ *   Framework js      : jQuery v3.3.1 min.js 
  *   Author            : Asif Mughal
  *   Official URL      : www.codehim.com
  *   License           : MIT License
