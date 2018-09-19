@@ -1,4 +1,4 @@
-# am-menu
+# AM-Menu Full App Style Mega Menu
 App Style Mega Menu with jQuery &amp; CSS3. The "AM Menu" is a responsive, customizable and App style mega menu that comes with built-in image lightbox, dropdowns, (auto colorful) cloud tags and variety of CSS3 and SVG animations. 
 <br> <br> Browse:
 <a href="https://codehimblog.github.io/AM-Menu/" title="Demo Link" target="_blank"> Live Demo </a>
