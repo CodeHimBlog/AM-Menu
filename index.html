@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta charset="UTF-8" />
+   <meta name="theme-color" content="#0F2027" />
+   <!--Google Fonts-->
+   <link href="https://fonts.googleapis.com/css?family=Assistant|Lato|Marmelad" rel="stylesheet" />
+   <!--Font Awesome-->
+   <link rel="stylesheet" href="../icons/css/font-awesome.css" />
+   <title>AM Menu - Full App Style Mega Menu with jQuery and CSS3</title>
+   <meta name="description" content="The "AM Menu" is a responsive, customizable and App style mega menu that comes with built-in image lightbox, dropdowns, (auto colorful) cloud tags and variety of CSS3, jQuery and SVG animations." />
+   <script src="../js/jquery.min.js"></script>
+   <!--AM Menu Plugin Script-->
+   <script src="js/am-menu.js"></script>
+   <!--AM Menu Main Script-->
+   <script src="js/main.js"></script>
+   <!--AM Menu CSS-->
+   <link rel="stylesheet" href="css/am-menu.css" />
+   <!--DEMO ONLY FILES-->
+   <!--Syntax Highlighter (for demo only)-->
+   <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"> </script> 
+   <script src="demo/demo-only.js"></script>
+   <link rel="stylesheet" href="demo/demo-only.css" />
+</head>
+<body>
+
+<!--AM Menu Start-->
+<header class="am-header">
+   <div class="logo" title="Place for your Logo">AM Menu</div>
+   <div class="search-trigger">
+      <div class='s-wrapper'>
+         <div id='circle'></div>
+         <div id='bar'></div>
+      </div>
+   </div>
+   <!--Search-trigger-->
+   <div class="search-container">
+      <div class="search-box">
+         <div class="search-icon">
+            <i class="fa fa-search search-icon"></i>
+         </div>
+         <form action="#search_page_link" class="search-form">
+            <input type="text" name="q" placeholder="Search" id="search" autocomplete="off">
+         </form>
+      </div>
+      <!--//search-box-->
+   </div>
+   <!--//search-container-->
+   <!--Menu Icon-->
+   <div class="menu-trigger"></div>
+</header>
+<nav class="am-container">
+   <h3> Photo Gallery  </h3>
+   <ul class="grid-items">
+      <li> <img src="images/sandwich.jpg" /> </li>
+      <li> <img src="images/espresso.jpg" alt="Coffee Time, Smart Mega Menu" /></li>
+      <li> <img src="images/mobile.jpg" /> </li>
+      <li> <img src="images/space.jpg" alt="A man in Space" /></li>
+      <li> <img src="images/desert.jpg" alt="What a nice desert scene" />  </li>
+      <li>  <img src="images/boat.jpg" /> </li>
+      <li> <img src="images/bicycle.jpg" /> </li>
+      <li>  <img src="images/bird.jpg" /> </li>
+   </ul>
+   <h3>Navigation List Links </h3>
+   <ul class="list-item">
+   <li class="has-sub">  <span class="item-icon"> <img src="icons/mypaint.svg" /> </span> My Paint</li>
+   <div class="sub-items">
+      <ul>
+         <li><a href="#4"> sub item 1from main item </a></li>
+         <li class="dropdown"> Drop down </li>
+         <!--dropdown-->
+         <ul class="dropdown-items">
+            <li><a href="#5"> dropdown item 1 </a> </li>
+            <li> <a href="#5"> dropdown item 2 </a> </li>
+            <li> <a href="#5"> dropdown item 3 </a> </li>
+            <li> <a href="#5"> dropdown item 4 </a> </li>
+         </ul>
+         <li> <a href="#5"> sub item 3 </a> </li>
+         <li> <a href="#5"> sub item 4 </a> </li>
+         <li class="dropdown">Another Drop down </li>
+         <!--dropdown-->
+         <ul class="dropdown-items">
+            <li> <a href="#5"> dropdown item 1 </a> </li>
+            <li> <a href="#5"> dropdown item 2 </a> </li>
+            <li> <a href="#5"> dropdown item 3 </a> </li>
+            <li> <a href="#5"> dropdown item 4  </a></li>
+            <li> <a href="#5"> dropdown item 5 </a></li>
+            <li> <a href="#5"> dropdown item 6  </a></li>
+         </ul>
+      </ul>
+      <!--sub-items-->
+   </div>
+   <!--//sub-items-->
+   <li class="has-sub"> <span class="item-icon"> <img src="icons/calc.svg" /> </span> Calculator </li>
+   <div class="sub-items">
+      <h4> Anything Can be Put Here  </h4>
+      <p> Some Grid items.... </p>
+      <ul class="grid-items">
+         <li> <img src="images/desert.jpg" alt="What a nice desert scene" />  </li>
+         <li>  <img src="images/boat.jpg" /> </li>
+         <li> <img src="images/bicycle.jpg" /> </li>
+         <li>  <img src="images/bird.jpg" /> </li>
+      </ul>
+      <p> Some List Items..... </p>
+      <ul>
+         <li><a href="#4"> Web Design Tutorials</a></li>
+         <li><a href="#4"> Codehim Best Plugins</a></li>
+         <li><a href="#4">Free Web Projects </a></li>
+   </div>
+   <!--//sub-items-->
+   <li> <a href="#1"> <span class="item-icon"> <img src="icons/file-manager.svg" /> </span> File Manager </a> </li>
+   <li> <a href="#1"> <span class="item-icon"> <img src="icons/text-editor.svg" /> </span> Text Editor </a> </li>
+   </ul>
+   <h3>Colorful Cloud Tags</h3>
+   <ul class="cloud-tags">
+      <li><a href="#2"> Insurance </a> </li>
+      <li> <a href="#2"> Policy </a> </li>
+      <li> <a href="#2"> jQuery </a> </li>
+      <li> <a href="#2"> JS </a> </li>
+      <li> <a href="#2"> PHP </a></li>
+      <li> <a href="#2"> MySQL </a></li>
+      <li> <a href="#2"> XML </a></li>
+      <li> <a href="#2"> Angular </a></li>
+      <li> <a href="#2"> ASP </a></li>
+      <li> <a href="#2"> SQL </a></li>
+      <li> <a href="#2"> HTML5 </a></li>
+      <li> <a href="#2"> CSS3 </a></li>
+   </ul>
+</nav>
+<!-- End AM Mega Menu -->
+     
+
+<main>
+
+<!--Your contents Goes Here... Under main tag -->
+
+
+<!-- Demo Only-->
+
+<article>
+   <div class="intro">
+      <h1> AM Menu - Full App Style Mega Menu</h1>
+      <p>
+         The "AM Menu" is a responsive, fully customizable and App style mega menu that comes with built-in image lightbox, dropdowns, (auto colorful) cloud tags and variety of CSS3 and SVG animations. 
+         <br />
+         <br />
+         <i> <b> Written in HTML, CSS3 and jQuery </b> </i>
+      </p>
+   </div>
+   <h2>AM Menu UI Features </h2>
+   <ol>
+      <li> Place for Brand Logo</li>
+      <li> Search Form</li>
+      <li> Navigation Links</li>
+      <li> Dropdowns</li>
+      <li> Items Grid </li>
+      <li> Photo Gallery </li>
+      <li> Colorful Cloud Tags</li>
+   </ol>
+   <h2> Main Features </h2>
+   <ul>
+      <li>Fully Responsive, Android, iPhone and Windows Phone Friendly (looks on these devices like a native app). </li>
+      <li>Unlimited number of Main Items, Sub Items and Dropdowns can be added. </li>
+      <li>Automatically Set Colors for Cloud Tags and Makes them Attractive and Colorful.  </li>
+      <li>Built-in Image Gallery with Light Box, in which Unlimited number of Images can be added.  </li>
+      <li> Automatically Detect Caption of the Images from alt text and Show them on the Image. </li>
+      <li>Animated Search Form and Menu Trigger. </li>
+      <li>Clean and Easily Modifiable HTML Structure. </li>
+      <li> Chrome, Safari, Firefox, Opera, IE7+, IOS, Android and windows phone supported. </li>
+      <li> CSS3, SVG and jQuery Animations Enabled.  </li>
+      <li>Font Awesome icons and +38 Macaron SVG icons Installed. </li>
+      <li> User and SEO Friendly, Easy to Navigate and Implement. </li>
+   </ul>
+   <h2> AM Menu Settings </h2>
+   <p> Choose color from the following tray. </p>
+   <div class="theme-tray">
+      <section class="pl-color">
+         <h4> Plain Color</h4>
+         <span title="Love Red" class="red"> </span>
+         <span title="Clover Green" class="green"> </span>
+         <span title="Dodger Blue" class="blue"> </span>
+         <span title="Bright Neon Pink" class="bnp"> </span>
+         <span title="Pumpkin Orange" class="orange"> </span>
+         <span title="Black" class="black"> </span>
+         <span title="Neon Pink" class="pink"> </span>
+         <span title="Golden Brown" class="gol-b"> </span>
+         <span title="Greenish Blue" class="greenish"> </span>
+         <span title="Wood" class="wood"> </span>
+      </section>
+      <!--Do not Remove The following Ad Unit if you distribute this Plugin to others-->
+      <div style="margin: 10px;">
+         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-7089100907045419"
+     data-ad-slot="7782420780"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+      </div>
+      <section class="gr-color">
+         <h4> Gradient Color</h4>
+         <span title="Flickr" class="flickr"> </span>
+         <span title="Facebook Messenger" class="fb-messenger"> </span>
+         <span title="Moonlit Asteroid" class="moonlit"> </span>
+         <span title="Park Life" class="park-life"> </span>
+         <span title="Dance to Forget" class="d2f"> </span>
+         <span title="Man of the Steel" class="steel-man"> </span>
+         <span title="Amethyst" class="amethyst"> </span>
+         <span title="Between the Clouds" class="between-clouds"> </span>
+         <span title="Crazy Orange"class="crazy-orange"> </span>
+         <span title="Endless River" class="endless-river"> </span>
+      </section>
+   </div>
+   <!--//theme-tray-->
+   <div class="set-sticky to-active"> Fixed on Top</div>
+   <div class="set-glass"> Glass Effect</div>
+   <div class="set-overlayer to-active">Background Dim Overlyer</div>
+   <div class="mesg"> </div>
+   <span class="ok"> OK</span>
+   <h2>Main Generated Script</h2>
+   <pre class="source prettyprint lang-js">
+$(function(){
+$("body").amMenu({
+   <code class="theme-code">theme: 'default-theme',</code>
+   <code class="dim-code">dimOverLayer: true,</code>
+   <code class="fixed-code">fixed: true,</code>
+   <code class="text-code">textShadow: false,</code>
+   <code class="glass-code">glassEffect: false,</code>
+     
+    });
+ });
+ </pre>
+   <h2> AM Menu UX Effects </h2>
+   <p>
+      Following are the some basic effects added to this menu for the best <strong>User Experience.</strong>
+   </p>
+   <ol>
+      <li>Sliding Effects (Left, Right Up and Down)</li>
+      <li>Fading Effects (In and Out) </li>
+      <li>Bounce In </li>
+      <li>Menu Trigger Bars to Cross (SVG) </li>
+      <li>Search Trigger Icon to Cross (CSS3)</li>
+      <li>Search Box Border Effect (SVG)</li>
+   </ol>
+</article>
+</main>
+
+
+<footer class="credit">
+Coded with <span title="heart"></span> by Asif Mughal &copy; 2018 - <a href="https://www.codehim.com" rel="dofollow" title="Awesome Web Projects and Tutorials" target="_blank"> Codehim.com </a>
+      </footer>
+</body>
+</html>
