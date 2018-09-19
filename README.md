@@ -24,3 +24,7 @@ App Style Mega Menu with jQuery &amp; CSS3. The "AM Menu" is a responsive, custo
       <li>Font Awesome icons and +38 Macaron SVG icons Installed. </li>
       <li> User and SEO Friendly, Easy to Navigate and Implement. </li>
    </ul>
+<h2> Author </h2>
+A Project by Asif Mughal - <a href="https://www.codehim.com" rel="dofollow" target="_blank"> Free Web Projects and Tutorials : Codehim </a>
+<br /
+<b> Official website: </b> <a href="https://www.codehim.com" rel="dofollow" target="_blank" title="Free Web Projects and Tutorials"> www.codehim.com </a>
