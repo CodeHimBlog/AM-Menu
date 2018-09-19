@@ -10,7 +10,7 @@ App Style Mega Menu with jQuery &amp; CSS3. The "AM Menu" is a responsive, custo
       <li> Photo Gallery </li>
       <li> Colorful Cloud Tags</li>
    </ol>
- ## Main Features 
+   <h2> Main Features</h2>
    <ul>
       <li>Fully Responsive, Android, iPhone and Windows Phone Friendly (looks on these devices like a native app). </li>
       <li>Unlimited number of Main Items, Sub Items and Dropdowns can be added. </li>
